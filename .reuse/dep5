@@ -1,0 +1,24 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Closure Compiler
+Source: https://github.com/google/closure-compiler
+
+Files: ClosureCompiler/lowLevel.py ClosureCompiler/__init__.py
+Copyright:
+	2002 The Closure Compiler Authors
+	2007 Google Inc
+	2010 The Closure Library Authors
+	2011 PicNet Pty Ltd
+	2012 YouTube LLC
+	KOLANICH, 2023
+License: Apache-2.0
+
+Files: reuse/dep5
+Copyright:
+	2013 Thomas Koch <thomas@koch.ro>
+	2018 Charlie Powell <charlie@evalagency.com>
+	KOLANICH, 2023
+License: Apache-2.0
+
+Files: .editorconfig .gitlab-ci.yml .gitignore ReadMe.md pyproject.toml Code_Of_Conduct.md MANIFEST.in tests/* .github/* ClosureCompiler/util.py ClosureCompiler/enums.py
+Copyright: KOLANICH, 2023
+License: Unlicense
